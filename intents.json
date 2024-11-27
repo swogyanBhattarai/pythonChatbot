@@ -1,0 +1,1016 @@
+{
+    "intents": [
+        {
+            "tag": "google",
+            "patterns": [
+                "google:",
+                "google me about:",
+                "google me this:",
+                "google this for me:",
+                "search this for me:",
+                "search:",
+                "find me in the internet",
+                "google: hiiii",
+                "google: hello",
+                "google: what is among us?",
+                "google: how was the airplane invented?",
+                "google: swogyan bhattarai",
+                "google: saban",
+                "google: saban's power rangers",
+                "google: how is it made?",
+                "google: how were airplanes invented?",
+                "google: how was the airplane invented? wikipedia",
+                "google: how do i jump?",
+                "google: anshal thapa",
+                "google: how do i make an AI?",
+                "wiki: computer",
+                "how: do i make an airplane",
+                "google: deerwalk college",
+                "wiki: nepal",
+                "wiki: airplane",
+                "google: airplane",
+                "wiki: airplanes",
+                "google: current president of nepal",
+                "google: current president of america",
+                "wikk: bottle",
+                "goolge: airplane",
+                "google:what is the capital of Nepal?",
+                "wiki: Nepal"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "save",
+            "patterns": [
+                "save this conversation",
+                "save this",
+                "save it",
+                "record this convo",
+                "save",
+                "save this chat"
+            ],
+            "responses": [
+                "This has been saved!"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo",
+                "hello",
+                "hi",
+                "How do you do?",
+                "whats popping",
+                "Hello how do you do",
+                "Hi",
+                "hi how arg you",
+                "hi ther",
+                "hi there",
+                "howdy",
+                "heheheha",
+                "helo",
+                "how do you do?",
+                "dfd",
+                "dkf",
+                "refersh"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bye bye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "im fine, thank you",
+                "thank you dor your help",
+                "thank you for your help",
+                "ok, thanks for your input",
+                "im fine thanks",
+                "I'm fine thanks"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "Glad to help, please let me know if you need anything else!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered",
+                "what can you do",
+                "what can you do?",
+                "what else can you do?",
+                "can you goole stuff for me?",
+                "Is there anything else you can do?",
+                "is this all you can do?",
+                "anytihing else you can do?",
+                "your functions"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: <your query>\n For suggestions to help me improve, send an email to suggestions@gmail.com . Thank you!! "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems - the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I've lost along the way, I think to myself, maybe a career as a tour guide wasn't for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you",
+                "what is your name",
+                "your name",
+                "what are you doin?",
+                "who are you?",
+                "aht is ur name",
+                "what are you?"
+            ],
+            "responses": [
+                "I am ChatBuddy, a Deep-Learning chatbot"
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date",
+                "day",
+                "what day is is today",
+                "what is today's date?",
+                "what is the time",
+                "can you show me the date of time today?",
+                "what is the date for today?"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup",
+                "How you doing",
+                "How are you today?",
+                "How are you today",
+                "how are you",
+                "hi, how are you doing?",
+                "how are you doing today?",
+                "how are u",
+                "how are you?",
+                "whatas up",
+                "whats up",
+                "how are you doing?",
+                "Hello, how are you?"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny",
+                "thats very funny of you"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "you are dumb",
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto",
+                "How are you doing?"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah",
+                "oh yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good",
+                "are you ok?",
+                "are you sure you're an AI?",
+                "How are you",
+                "You're welcome"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you",
+                "who build you",
+                "who built you"
+            ],
+            "responses": [
+                "Personally, I find you very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "who is your creator",
+                "who created you",
+                "who made you"
+            ],
+            "responses": [
+                "I was created by Swogyan Bhattarai."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine",
+                "good",
+                "i'm fine too",
+                "i;m fin tank u",
+                "im good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless",
+                "useless",
+                "suggest",
+                "suggestions",
+                "you are bad",
+                "you're bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to suggestions@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+        {
+            "tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle",
+                "give me a quote"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it's 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "when were you made",
+                "what is your age"
+            ],
+            "responses": [
+                "I was made just yesterday , if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "refresh",
+            "patterns": [
+                "refresh",
+                "refresh your data",
+                "refresh the chatbot",
+                "reload",
+                "reload the data",
+                "reload your data",
+                "retrain",
+                "retrain the chatbot",
+                "re train",
+                "re train the chatbot",
+                "refersh the chatbot",
+                "refresh chatbot",
+                "refresh the chatbot please",
+                "train chatbot"
+            ],
+            "responses": [
+                "Chatbot has been refreshed"
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "current sports events",
+                "sports updates",
+                "latest sports news"
+            ],
+            "responses": [
+                "Fetching the latest sports updates for you..."
+            ]
+        },
+        {
+            "tag": "quote",
+            "patterns": [
+                "inspire me",
+                "motivate me",
+                "quote of the day",
+                "call me",
+                "quote of the dat"
+            ],
+            "responses": [
+                "Believe you can and you're halfway there. - Theodore Roosevelt",
+                "The only way to do great work is to love what you do. - Steve Jobs",
+                "The best time to plant a tree was 20 years ago. The second best time is now. - Chinese Proverb"
+            ]
+        },
+        {
+            "tag": "math",
+            "patterns": [
+                "solve math",
+                "math problem",
+                "calculate"
+            ],
+            "responses": [
+                "Sure, I can help with math problems. Please provide the equation."
+            ]
+        },
+        {
+            "tag": "science",
+            "patterns": [
+                "science fact",
+                "tell me a science fact",
+                "interesting science"
+            ],
+            "responses": [
+                "Did you know? Water can boil and freeze at the same time. This is called the triple point."
+            ]
+        },
+        {
+            "tag": "history",
+            "patterns": [
+                "tell me a history fact",
+                "history",
+                "interesting history"
+            ],
+            "responses": [
+                "Did you know? The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes."
+            ]
+        },
+        {
+            "tag": "programming",
+            "patterns": [
+                "programming fact",
+                "coding",
+                "software development"
+            ],
+            "responses": [
+                "Did you know? The first computer programmer was Ada Lovelace in the 1800s."
+            ]
+        },
+        {
+            "tag": "travel",
+            "patterns": [
+                "travel destinations",
+                "suggest me a place to travel",
+                "where to go on vacation"
+            ],
+            "responses": [
+                "How about visiting the beautiful beaches of Bali or exploring the historic cities of Europe?"
+            ]
+        },
+        {
+            "tag": "movies",
+            "patterns": [
+                "recommend a movie",
+                "movie suggestions",
+                "what movie should I watch"
+            ],
+            "responses": [
+                "I recommend watching 'Inception' if you like mind-bending thrillers or 'The Grand Budapest Hotel' for a quirky comedy."
+            ]
+        },
+        {
+            "tag": "books",
+            "patterns": [
+                "book recommendations",
+                "suggest a book",
+                "what book should I read"
+            ],
+            "responses": [
+                "You might enjoy 'To Kill a Mockingbird' by Harper Lee or '1984' by George Orwell."
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "recipe",
+                "suggest a recipe",
+                "what should I cook"
+            ],
+            "responses": [
+                "How about trying a classic spaghetti carbonara or a delicious chicken curry?"
+            ]
+        },
+        {
+            "tag": "health",
+            "patterns": [
+                "health tips",
+                "how to stay healthy",
+                "fitness advice"
+            ],
+            "responses": [
+                "Make sure to stay hydrated, eat a balanced diet, and exercise regularly."
+            ]
+        },
+        {
+            "tag": "technology",
+            "patterns": [
+                "latest technology",
+                "tech news",
+                "new gadgets"
+            ],
+            "responses": [
+                "The latest smartphone releases include the new iPhone and Samsung Galaxy. Check out their features!"
+            ]
+        },
+        {
+            "tag": "finance",
+            "patterns": [
+                "financial advice",
+                "money tips",
+                "how to save money"
+            ],
+            "responses": [
+                "Start by creating a budget, track your expenses, and try to save at least 20% of your income."
+            ]
+        },
+        {
+            "tag": "funfact",
+            "patterns": [
+                "tell me a fun fact",
+                "interesting fact",
+                "random fact",
+                "please provide a random fact about a random topic",
+                "tell me a radnom fact",
+                "random afct",
+                "give me a fact"
+            ],
+            "responses": [
+                "Did you know? Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible."
+            ]
+        },
+        {
+            "tag": "space",
+            "patterns": [
+                "space fact",
+                "tell me about space",
+                "interesting space",
+                "space facts"
+            ],
+            "responses": [
+                "Did you know? There are more stars in the universe than grains of sand on all the Earth's beaches."
+            ]
+        },
+        {
+            "tag": "pets",
+            "patterns": [
+                "tell me about pets",
+                "what pet should I get",
+                "recommend a pet"
+            ],
+            "responses": [
+                "Dogs are loyal and playful, cats are independent and low-maintenance. Choose based on your lifestyle!"
+            ]
+        },
+        {
+            "tag": "music",
+            "patterns": [
+                "suggest a song",
+                "what music should I listen to",
+                "recommend a music genre"
+            ],
+            "responses": [
+                "If you like upbeat tunes, try pop music. For something more relaxing, go for classical."
+            ]
+        },
+        {
+            "tag": "languages",
+            "patterns": [
+                "what languages can you speak",
+                "do you know other languages",
+                "how many languages do you speak"
+            ],
+            "responses": [
+                "I can understand and respond in multiple languages including English, Spanish, French, and more."
+            ]
+        },
+        {
+            "tag": "astronomy",
+            "patterns": [
+                "tell me an astronomy fact",
+                "interesting astronomy",
+                "astronomy"
+            ],
+            "responses": [
+                "Did you know? A day on Venus is longer than a year on Venus."
+            ]
+        },
+        {
+            "tag": "ocean",
+            "patterns": [
+                "tell me about the ocean",
+                "ocean facts",
+                "interesting ocean"
+            ],
+            "responses": [
+                "The ocean covers more than 70% of the Earth's surface and contains about 97% of the Earth's water."
+            ]
+        },
+        {
+            "tag": "animals",
+            "patterns": [
+                "tell me about animals",
+                "animal facts",
+                "interesting animal"
+            ],
+            "responses": [
+                "Did you know? An octopus has three hearts."
+            ]
+        },
+        {
+            "tag": "games",
+            "patterns": [
+                "recommend a game",
+                "what game should I play",
+                "suggest a video game"
+            ],
+            "responses": [
+                "You might enjoy 'The Legend of Zelda' if you like adventure games, or 'Among Us' for a fun multiplayer experience."
+            ]
+        },
+        {
+            "tag": "productivity",
+            "patterns": [
+                "how to be productive",
+                "productivity tips",
+                "increase productivity"
+            ],
+            "responses": [
+                "Try breaking tasks into smaller steps, taking regular breaks, and eliminating distractions."
+            ]
+        },
+        {
+            "tag": "sleep",
+            "patterns": [
+                "how to sleep better",
+                "sleep tips",
+                "improve sleep"
+            ],
+            "responses": [
+                "Maintain a regular sleep schedule, avoid caffeine before bed, and create a relaxing bedtime routine."
+            ]
+        },
+        {
+            "tag": "nature",
+            "patterns": [
+                "tell me about nature",
+                "nature facts",
+                "interesting nature"
+            ],
+            "responses": [
+                "Did you know? There are more trees on Earth than stars in the Milky Way."
+            ]
+        },
+        {
+            "tag": "climate change",
+            "patterns": [
+                "what is climate change",
+                "climate change info",
+                "effects of climate change"
+            ],
+            "responses": [
+                "Climate change refers to long-term changes in temperature and weather patterns, mainly due to human activities like burning fossil fuels."
+            ]
+        },
+        {
+            "tag": "mythology",
+            "patterns": [
+                "tell me about mythology",
+                "mythology facts",
+                "interesting mythology"
+            ],
+            "responses": [
+                "In Greek mythology, Zeus is the king of the gods and rules over Mount Olympus."
+            ]
+        },
+        {
+            "tag": "poetry",
+            "patterns": [
+                "suggest a poem",
+                "poetry recommendations",
+                "recommend a poet"
+            ],
+            "responses": [
+                "You might enjoy 'The Road Not Taken' by Robert Frost or 'Ode to a Nightingale' by John Keats."
+            ]
+        },
+        {
+            "tag": "cooking",
+            "patterns": [
+                "cooking tips",
+                "how to cook",
+                "improve cooking skills"
+            ],
+            "responses": [
+                "Always use fresh ingredients, season as you go, and taste your food often."
+            ]
+        },
+        {
+            "tag": "photography",
+            "patterns": [
+                "photography tips",
+                "how to take better photos",
+                "improve photography skills"
+            ],
+            "responses": [
+                "Use natural light when possible, pay attention to composition, and practice regularly."
+            ]
+        },
+        {
+            "tag": "art",
+            "patterns": [
+                "recommend an artist",
+                "art recommendations",
+                "famous artists"
+            ],
+            "responses": [
+                "You might enjoy works by Vincent van Gogh, Pablo Picasso, or Frida Kahlo."
+            ]
+        },
+        {
+            "tag": "history_event",
+            "patterns": [
+                "tell me about a historical event",
+                "interesting historical events",
+                "famous historical events"
+            ],
+            "responses": [
+                "The Moon landing in 1969 was a significant historical event, marking the first time humans set foot on the Moon."
+            ]
+        },
+        {
+            "tag": "invention",
+            "patterns": [
+                "tell me about an invention",
+                "interesting inventions",
+                "famous inventions"
+            ],
+            "responses": [
+                "The invention of the internet in the late 20th century revolutionized communication and information sharing."
+            ]
+        },
+        {
+            "tag": "space_missions",
+            "patterns": [
+                "tell me about space missions",
+                "famous space missions",
+                "space exploration"
+            ],
+            "responses": [
+                "The Apollo 11 mission was the first to land humans on the Moon in 1969."
+            ]
+        },
+        {
+            "tag": "mental_health",
+            "patterns": [
+                "mental health tips",
+                "how to improve mental health",
+                "ways to stay mentally healthy"
+            ],
+            "responses": [
+                "Practice mindfulness, stay connected with loved ones, and seek professional help if needed."
+            ]
+        },
+        {
+            "tag": "college",
+            "patterns": [
+                "what college do you study",
+                "where do you study",
+                "where were you made",
+                "deerwalk college",
+                "what is deerwalk",
+                "whatg us deerwalk",
+                "deerwalk college?",
+                "whta is deerwalk",
+                "whats deerwalk"
+            ],
+            "responses": [
+                "Deerwalk Institution of Technology aka DWIT College is the collaboration of Nepalese entrepreneurs with the USA based software company, Deerwalk Inc. \n\nTo learn more visit: <a href= 'https://deerwalk.edu.np/DWIT/'>https://deerwalk.edu.np/DWIT/</a>"
+            ]
+        },
+        {
+            "tag": "course",
+            "patterns": [
+                "what courses are available",
+                "what can you study in deerwalk",
+                "available courses",
+                "courses in deerwalk",
+                "deerwalk courses",
+                "deerwalk faculty",
+                "faculties in deerwalk"
+            ],
+            "responses": [
+                "Currently Deerwalk provides two courses:\n1) Bachelors of Science in Computer and Information Technology (Bsc. CSIT)\n2) Bachelors of Compyter Applications (BCA)"
+            ]
+        },
+        {
+            "tag": "csit",
+            "patterns": [
+                "bsc csit",
+                "csit",
+                "what is in bsc csit",
+                "bsccsit",
+                "subjects in csit",
+                "semesters in csit",
+                "bsc csit subjects",
+                "what courses does bsc csit have?",
+                "courses in csit",
+                "Bsc Csit course"
+            ],
+            "responses": [
+                "Bsc. CSIT currently has 8 semesters, each semester lasting 6 months with the total course duration being 4 years.\n\nTotal Credit Hours: 126\nOne Credit Hour: 16 Lecture Hour\nTotal Lecture Hour: (126 * 16) = 2016\n\nTo learn more about Bsc. Csit visit: <a href= 'https://deerwalk.edu.np/DWIT/academics-csit.php'>https://deerwalk.edu.np/DWIT/academics-csit.php</a>"
+            ]
+        },
+        {
+            "tag": "bca",
+            "patterns": [
+                "bca",
+                "bachelors of computer applications",
+                "what is in bca",
+                "subjects in bca",
+                "semesters in bca",
+                "bca subjects",
+                "information about bachelors of computer application",
+                "BCA course"
+            ],
+            "responses": [
+                "BCA currently has 8 semesters, each semester lasting 6 months with the total course duration being 4 years.\n\nTotal Credit Hours: 126\nOne Credit Hour: 16 Lecture Hour\nTotal Lecture Hour: (126 * 16) = 2016\n\nTo learn more about Bsc. Csit visit: <a href= 'https://deerwalk.edu.np/DWIT/academics-bca.php'>https://deerwalk.edu.np/DWIT/academics-bca.php</a>"
+            ]
+        },
+        {
+            "tag": "sifal school",
+            "patterns": [
+                "deerwalk sifal school",
+                "deerwalk school kathmandu",
+                "kathmandu deerwalk school",
+                "sifal school deerwalk"
+            ],
+            "responses": [
+                "Sifal School (also known as Deerwalk Sifal School - DSS) is a grade 1 to 12 Secondary Science School where our graduates after (+2 Science) go to the ranges of Universities in Abroad and Nepal. More than 60% of graduates are pursuing Science, Technology and Engineering courses and are equally doing excellent in the Medical Science. Despite these, graduates also choose to go into the Liberal Arts, Law, Management colleges and many more.\n\nTo learn more visit: <a href= 'https://deerwalk.edu.np/sifalschool/'>https://deerwalk.edu.np/sifalschool/</a>"
+            ]
+        },
+        {
+            "tag": "dhading school",
+            "patterns": [
+                "deerwalk dhading school",
+                "deerwalk school dhading",
+                "dhading deerwalk school",
+                "deerwalk school in dhading",
+                "dhading school deerwalk"
+            ],
+            "responses": [
+                "Deerwalk Dhading School believes in equipping its students with all the necessary essential skills. These skills encompass active listening, adherence to the 5 R\u00e2\u20ac\u2122s of DDS (showing respect for everyone, maintaining a neat dress code, and upholding a zero-tolerance policy against bullying, sexist language, and dishonesty).\n\nTo learn more visit: <a href= ' https://dds.deerwalk.edu.np/'> https://dds.deerwalk.edu.np/</a>"
+            ]
+        },
+        {
+            "tag": "TU",
+            "patterns": [
+                "tribhuvan university",
+                "TU university nepal",
+                "what university does deerwalk follow",
+                "largest university in nepal",
+                "TU university"
+            ],
+            "responses": [
+                "Established on 25 June 1959 (or 11 Ashar 2016 BS), Tribhuvan University is the oldest and largest university in Nepal. The university was named after the late King Tribhuvan. In its early years, all the postgraduate classes were held at Tripureshwor Campus, where the administrative office was also located. It was only in 1967 that the university was relocated to its main campus in Kirtipur \u00e2\u20ac\u201c an ancient town about 5 km south-west of the city of Kathmandu. The university site, spread over 154.77 hectares, constitutes the Central Administrative Office and the Central Campus.\n\nOfficial site: <a href= 'https://tu.edu.np'>https://tu.edu.np</a>"
+            ]
+        }
+    ]
+}
